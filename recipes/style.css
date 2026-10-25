@@ -1,0 +1,114 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color:#d2e2bb;
+    font-family: Arial,"Helvetica",sans-serif;
+    margin: 0;
+    color:#333a32;
+    line-height:1.8;
+}
+.site-header{
+    background: #244735;
+    color:#fffaf0;
+    text-align:center;
+    padding: 35px 20px 45px;
+    position: sticky;
+}
+ 
+.navbar{
+    display:flex;
+    list-style: none;
+    align-items: center;
+    justify-content:space-between ;
+    padding:10px 10px;
+    font-size: 20px;
+    gap: 20px;
+    flex-direction: row;
+    top: 0;
+}
+#nav-links{
+    color: #80ca09;
+    font-size:18px,
+    
+}
+.home-link{
+    display:inline-block;
+    color:#fffaf0;
+    text-decoration:none;
+    border:1px solid #b8c9b7;
+    border-radius:25px;
+    padding:6px 16px;
+    margin-bottom:20px;
+    transition:background-color 0.3s;
+}
+.heading-1 h1,
+.site-header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(30px, 5vw, 48px);
+    line-height:1.2;
+    margin: 10px 0;
+}
+.recipe-container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 24px;
+}
+.recipe-image {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 500px;
+    margin: -5px auto 35px;
+    border-radius: 0 20%;
+    box-shadow: 0 8px 25px rgba(36, 71, 53, 0.16);
+   
+}
+.recipe-container h3 {
+    color: #244735;
+    font-size: 19px;
+    margin: 0 0 8px;
+}
+
+.description {
+    margin-bottom: 45px;
+}
+.description p {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.ingredients {
+    background-color: #fffdf8;
+    padding: 28px;
+    border-radius: 15px;
+    border: 1px solid hsl(61, 94%, 48%);
+    margin-bottom: 45px;
+    background-image: url(images/chickeningred.jpg);
+}
+.ingredient {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.steps {
+    margin-bottom: 45px;
+}
+
+.steps {
+    padding-left: 25px;
+    margin: 25px 0 0;
+    color: black;
+    line-height: 1.6;
+}
+.recipe-footer {
+    text-align: center;
+    border-top: 1px solid #ddd8cd;
+    padding:15px 10px;
+    color: blue;
+}
+.recipe-footer a {
+    color: #244735;
+    font-weight: bold;
+    text-decoration: none;
+}
