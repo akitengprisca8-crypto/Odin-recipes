@@ -1,114 +1,116 @@
-*{
-    box-sizing:border-box;
+body {
+   background: linear-gradient(270deg, #0e5832, #ddd8cd);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin: auto;
+   color: #333a32;
+   line-height: 1.8;
 }
-body{
-    background-color:#d2e2bb;
-    font-family: Arial,"Helvetica",sans-serif;
-    margin: 0;
-    color:#333a32;
-    line-height:1.8;
+
+.site-header {
+   background: #175233;
+   color: white;
+   text-align: center;
+   padding: 35px 20px 45px;
+   position: sticky;
+   line-height: 1;
+   border-bottom: 1px solid #ddd8cd;
 }
-.site-header{
-    background: #244735;
-    color:#fffaf0;
-    text-align:center;
-    padding: 35px 20px 45px;
-    position: sticky;
+
+h1 {
+   font-size: 30px;
 }
- 
-.navbar{
-    display:flex;
-    list-style: none;
-    align-items: center;
-    justify-content:space-between ;
-    padding:10px 10px;
-    font-size: 20px;
-    gap: 20px;
-    flex-direction: row;
-    top: 0;
+
+.navbar {
+   display: flex;
+   list-style: none;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px 10px;
+   font-size: 20px;
+   gap: 20px;
+   flex-direction: row;
 }
-#nav-links{
-    color: #80ca09;
-    font-size:18px,
-    
+
+#nav-links {
+   color: #80ca09;
+   font-size: 18px,
+
 }
-.home-link{
-    display:inline-block;
-    color:#fffaf0;
-    text-decoration:none;
-    border:1px solid #b8c9b7;
-    border-radius:25px;
-    padding:6px 16px;
-    margin-bottom:20px;
-    transition:background-color 0.3s;
+
+a {
+   text-decoration: none;
+   color: black;
+   font-weight: 800;
 }
-.heading-1 h1,
-.site-header h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: clamp(30px, 5vw, 48px);
-    line-height:1.2;
-    margin: 10px 0;
+
+a:hover {
+   color: chartreuse;
 }
-.recipe-container{
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 30px 24px;
+
+
+.description-container {
+   display: flex;
+   flex: 1;
+   justify-content: space-between;
+   gap: 24px;
+   padding: 10px;
+   font-size: 20px;
+   color: black;
+
 }
+
+h2 {
+   color: rgb(94, 45, 3);
+   line-height: 0.6;
+
+}
+
 .recipe-image {
-    display: block;
-    width: 100%;
-    max-width: 700px;
-    height: 500px;
-    margin: -5px auto 35px;
-    border-radius: 0 20%;
-    box-shadow: 0 8px 25px rgba(36, 71, 53, 0.16);
-   
-}
-.recipe-container h3 {
-    color: #244735;
-    font-size: 19px;
-    margin: 0 0 8px;
+   width: 400px;
+   height: 300px;
+   border-radius: 0 30px 0 30px;
+
 }
 
-.description {
-    margin-bottom: 45px;
-}
-.description p {
-    font-size: 16px;
-    margin-bottom: 16px;
+.para {
+   padding-top: 50px;
+
 }
 
-.ingredients {
-    background-color: #fffdf8;
-    padding: 28px;
-    border-radius: 15px;
-    border: 1px solid hsl(61, 94%, 48%);
-    margin-bottom: 45px;
-    background-image: url(images/chickeningred.jpg);
+.ingredients h2 {
+   text-align: center;
+   padding-top: 24px;
+
 }
+
 .ingredient {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.steps {
-    margin-bottom: 45px;
+   font-size: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+
 }
 
-.steps {
-    padding-left: 25px;
-    margin: 25px 0 0;
-    color: black;
-    line-height: 1.6;
+.Steps {
+   font-size: 20px;
+   color: black;
 }
+
+
 .recipe-footer {
-    text-align: center;
-    border-top: 1px solid #ddd8cd;
-    padding:15px 10px;
-    color: blue;
+   text-align: center;
+   border-top: 1px solid #ddd8cd;
+   padding: 15px 10px;
+   color: blue;
+   font-weight: bold;
+   background: linear-gradient(135deg, #025f2f,
+         #ddd8cd);
 }
+
 .recipe-footer a {
-    color: #244735;
-    font-weight: bold;
-    text-decoration: none;
+   color: #244735;
+   font-weight: bold;
+   text-decoration: none;
 }
